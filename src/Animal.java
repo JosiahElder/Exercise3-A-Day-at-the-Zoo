@@ -67,4 +67,15 @@ public class Animal
     {
         return isEndangered;
     }
+
+    public String toString()
+    {
+        return ("I am a "
+                + getMaxWeight()
+                + "lb "
+                + getSpecies()
+                + " that lives in the "
+                + getHabitat()
+                + " I am an endangered species.");
+    }
 }
