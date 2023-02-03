@@ -1,3 +1,5 @@
+// Exercise 3: A Day at the Zoo - "Ready for marking"
+
 public class Main
 {
     public static void main(String[] args)
