@@ -8,7 +8,7 @@ public class Animal
     public Animal()
     {
         species = "Lion";
-        maxWeight = 190;
+        maxWeight = 420;
         Habitat = "Jungle";
         isEndangered = true;
     }
@@ -32,12 +32,12 @@ public class Animal
         this.species = species;
     }
 
-    void setHabitat(int maxWeight)
+    void setMaxWeight(int maxWeight)
     {
         this.maxWeight = maxWeight;
     }
 
-    void setMaxWeight(String Habitat)
+    void setHabitat(String Habitat)
     {
         this.Habitat = Habitat;
     }
@@ -76,6 +76,8 @@ public class Animal
                 + getSpecies()
                 + " that lives in the "
                 + getHabitat()
-                + " I am an endangered species.");
+                + " I am an "
+                + getIsEndangered()
+                + " species.");
     }
 }
